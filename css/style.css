@@ -332,6 +332,7 @@ a {
 
 .contact__form {
   gap: 29px;
+  margin-bottom: 15px;
 }
 .contact__form input {
   flex: 2;
@@ -354,6 +355,13 @@ a {
 }
 .contact__form .contact__btn {
   padding: 15px 27px;
+}
+
+#validationMessage {
+  display: none;
+  text-align: left;
+  padding-left: 38px;
+  color: hsl(0, 100%, 63%);
 }
 
 .footer {

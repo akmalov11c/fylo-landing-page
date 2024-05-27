@@ -235,12 +235,19 @@
               extremely generous. If you have any questions, our support team
               would be happy to help you.
             </p>
-            <form class="contact__form flex">
-              <input type="email" placeholder="email@example.com" />
+            <form id="contactForm" class="contact__form flex">
+              <input
+                id="emailInput"
+                type="email"
+                placeholder="email@example.com"
+              />
               <button type="submit" class="button contact__btn">
                 Get Started For Free
               </button>
             </form>
+            <span id="validationMessage">
+              Please enter a valid email address.
+            </span>
           </div>
         </div>
       </section>
@@ -325,5 +332,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>

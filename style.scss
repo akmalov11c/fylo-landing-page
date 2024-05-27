@@ -404,6 +404,7 @@ a {
 
 .contact__form {
   gap: 29px;
+  margin-bottom: 15px;
 
   input {
     flex: 2;
@@ -429,6 +430,12 @@ a {
   }
 }
 
+#validationMessage {
+  display: none;
+  text-align: left;
+  padding-left: 38px;
+  color: $--error-color;
+}
 // FOOTER
 
 .footer {
